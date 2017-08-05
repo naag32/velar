@@ -18,4 +18,20 @@
   <build>
     <finalName>velarwebapp</finalName>
   </build>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>VelarSnapshotRepo</id>
+      <url>http://13.126.148.7:8081/nexus/content/repositories/VelarSnapshotRepo/</url>
+    </snapshotRepository>
+    <repository>
+      <id>VelarReleaseRepo</id>
+      <url>http://13.126.148.7:8081/nexus/content/repositories/VelarReleaseRepo/</url>
+    </repository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>VelarGroupy</id>
+      <url>http://13.126.148.7:8081/nexus/content/groups/VelarGroupy/</url>
+    </repository>
+  </repositories>
 </project>
